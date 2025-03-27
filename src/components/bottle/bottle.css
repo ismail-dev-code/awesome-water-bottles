@@ -5,3 +5,20 @@
     border-radius: 20px;
    
 }
+.bottle:hover{
+    background-color: teal;
+    color: white;
+}
+.bottle{
+   
+    place-items: center;
+    display: grid;
+}
+.bottle img{
+    border-radius: 8px;
+width: 250px;
+}
+.title-div{
+    display: flex;
+    gap: 15px;
+}
