@@ -1,24 +1,26 @@
-.card{
-    border: 2px solid teal;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 20px;
-   
+.card {
+  border: 2px solid teal;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
 }
-.bottle:hover{
-    background-color: teal;
-    color: white;
+.bottle:hover {
+  background-color: rgba(0, 128, 128, 0.498);
+  color: white;
 }
-.bottle{
-   
-    place-items: center;
-    display: grid;
+.bottle {
+  place-items: center;
+  display: grid;
 }
-.bottle img{
-    border-radius: 8px;
-width: 250px;
+.bottle button {
+  background-color: green;
+  color: white;
 }
-.title-div{
-    display: flex;
-    gap: 15px;
+.bottle img {
+  border-radius: 8px;
+  width: 250px;
+}
+.title-div {
+  display: flex;
+  gap: 15px;
 }
