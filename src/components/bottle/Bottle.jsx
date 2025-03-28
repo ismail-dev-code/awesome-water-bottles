@@ -10,7 +10,7 @@ const Bottle = ({ bottle, handleAddToCart }) => {
       <img src={img} alt="bottle image" />
       <h3>{name}</h3>
       <div className="title-div">
-        {" "}
+       
         <div>
           <h6>Price: ${price}</h6>
           <h6>{stock} Remaining</h6>
